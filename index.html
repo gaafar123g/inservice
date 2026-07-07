@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> IN SERVICE </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/logo.4.jpeg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <style>
+        h4{
+            text-align: center;
+        }
+        a{
+            color: #0c87a5;
+        }
+      #fixedWhatsAppIcon {
+    display: block;
+    position: fixed;
+    left: 22px;
+    bottom: 180px;
+    width: 56px;
+    height: 53px;
+    background-color: #54b460;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+    z-index: 9999;
+  }
+  #fixedWhatsAppIcon:hover {
+    background-color: #339933;
+  } 
+  /*  whatsapp*/
+    </style>
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div style="background-color: #0c87a5;" id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+    <!-- Topbar Start -->
+    <!--  <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>123 Street, New York, USA</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+012 345 6789</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>  -->
+    <!-- Topbar End -->
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img style="width:120px;height:60px;border-radius:12px" src="img/logo.4.jpeg" />
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse" dir="rtl">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">الرئسية</a>
+                <a href="#about" class="nav-item nav-link">من نحن</a>
+                <a href="#service" class="nav-item nav-link">خدماتنا</a>
+                <a href="#project" class="nav-item nav-link">مقالات تهمك</a>
+                <a href="#Quote" class="nav-item nav-link"> أسئلة شائعة </a>
+
+                <!--<div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="feature.html" class="dropdown-item">Feature</a>
+                        <a href="quote.html" class="dropdown-item">Free Quote</a>
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div>-->
+                <a href="#contact" class="nav-item nav-link">اتصل بنا</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Carousel Start      img2/slider/s.1.Jpeg -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="border-bottom: 1px solid #3662ad;">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/s.1.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5></h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/s.2.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5></h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/s.3.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5></h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Carousel End -->
+    <!-- About Start -->
+    <div class="container bg-light overflow-hidden my-5 px-lg-0" id="about">
+        <div class="container about px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/a.1.jpeg" style="object-fit: cover;border-radius:12px" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s" dir="rtl" style="background: #fff;">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="">
+                            <h1 class="display-5 mb-4" style="font-family: Amiri"> من نحن </h1>
+                            <hr style="text-align:right;width:25%" />
+                        </div>
+                        <h5 class="mb-4 pb-2" style="font-family: Almarai;">
+                            شركة رائدة تقدم مجموعة شاملة من الخدمات الاحترافية في مجالات الصيانة، التشطيب، والتنظيف المنزلي. تشمل خدماتنا الشقق، المنازل، الفلل، القصور، المكاتب، الاستراحات، والمحلات التجارية. نحن نفخر بتقديم حلول مبتكرة وفعالة تلبي جميع احتياجات عملائنا بإتقان ودقة عالية، مما يضمن بيئة مريحة وجميلة للعيش والعمل. 
+                        </h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="border-bottom: 1px solid #3662ad;" id="service" />
+    <!-- About End -->
+    <!-- Service Start --><br />
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1 class="display-5 mb-5" style="color: #0c87a5;"> خدماتنا </h1>
+            </div>
+            <div class="row g-4" dir="rtl">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="overflow-hidden" style="text-align:center">
+                            <img style="width:170px;height:170px;border-radius:50%" class="img-fluid" src="img2/servesc/1.jpeg" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">  تنظيف شقق - فلل - شركة</h4>
+                            <p>استمتع بالراحة والنظافة التامة مع خدماتنا المتخصصة في تنظيف الشقق، الفلل والقصور. فريقنا المحترف مجهز بأدوات متطورة للعناية بكل تفاصيل منزلك بمنتهى الدقة والعناية.</p>
+                            <a target="_blank" class="fw-medium" href="servicehome.html"> عرض المزيد<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="overflow-hidden" style="text-align:center">
+                            <img style="border-radius:50%;width: 170px;height: 170px;" class="img-fluid" src="img2/servesc/2.jpeg" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3"> تنظيف المكيفات - صيانة</h4>
+                            <p>استمتع بجو مثالي في منزلك أو مكتبك مع خدمات التبريد والتكييف الشاملة. خدمتنا تشمل تنظيف كامل للوحدة الداخلية والخارجية، شحن فريون لتعزيز التبريد، وصيانة منتظمة للحفاظ على كفاءة مكيفك وإطالة عمره الافتراضي.</p>
+                            <a target="_blank" class="fw-medium" href=""> عرض المزيد <i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="overflow-hidden" style="text-align:center">
+                            <img style="border-radius:50%;width: 170px;height: 170px;" class="img-fluid" src="img2/servesc/a.2.jpeg" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3"> تنظيف مجالس  </h4>
+                            <p>تتميز شركتنا بتقديم خدمات تنظيف مجالس   بكفاءة عالية وأسعار تنافسية. نعتمد على فريق من الخبراء لتنظيف المجالس بطريقة تحافظ على جودة ورونق الأقمشة والمفروشات.</p>
+                            <a target="_blank" class="fw-medium" href="">عرض المزيد<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="overflow-hidden" style="text-align:center">
+                            <img style="border-radius:50%;width: 170px;height: 170px;" class="img-fluid" src="img2/servesc/11.jpeg" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">تنظيف وصيانة الافران</h4>
+                            <p>تنظيف عميق وصيانة احترافية للأفران لإزالة الدهون، تحسين الأداء، والحفاظ على نظافة وكفاءة الفرن بأعلى جودة.</p>
+                            
+                            <a target="_blank" class="fw-medium" href=""> عرض المزيد<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="overflow-hidden" style="text-align:center">
+                            <img style="border-radius:50%;width: 170px;height: 170px;" class="img-fluid" src="img2/servesc/4.jpeg" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">خدمة مكافحة الحشرات</h4>
+                            <p>خدمة مكافحة حشرات احترافية للقضاء على الحشرات الزاحفة والطائرة باستخدام مواد آمنة وفعالة، مع ضمان بيئة نظيفة وآمنة.</p>
+                           
+                            <a target="_blank" class="fw-medium" href=""> عرض المزيد<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+               
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="overflow-hidden" style="text-align:center">
+                            <img style="border-radius:50%;width: 170px;height: 170px;" class="img-fluid" src="img2/servesc/7.jpeg" alt="">
+                        </div>
+                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                            <h4 class="mb-3">عزل الخزانات والأسطح وغيرها</h4>
+                            <p>خدمة عزل احترافية للخزانات والأسطح والحمامات وغيرها، لحماية المباني من التسربات والرطوبة باستخدام أفضل مواد العزل</p>
+                            <a class="fw-medium" target="_blank" href="">عرض المزيد<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+    <!-- Projects Start -->
+         <hr style="border-bottom: 1px solid #3662ad;" id="project" />
+      <br>
+    <div class="container-xxl py-5" >
+        <div class="container" dir="rtl">
+            <div class="section-title text-center">
+                <h1 class="display-5 mb-5"> مقالات تهمك </h1>
+            </div>
+            <!--   <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                   <div class="col-12 text-center">
+                       <ul class="list-inline mb-5" id="portfolio-flters">
+                           <li class="mx-2 active" data-filter="*">All</li>
+                           <li class="mx-2" data-filter=".first">General Carpentry</li>
+                           <li class="mx-2" data-filter=".second">Custom Carpentry</li>
+                       </ul>
+                   </div>
+               </div> -->
+            <div class="row g-4 portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img2/servesc/22.png" alt="">
+                            <div class="portfolio-overlay">
+
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <h4 class="text-primary fw-medium mb-2">تنظيف الشقق والفلل والشركات</h4>
+                            <p class="lh-base mb-0">دليل تنظيف المنازل باحتراف في السعودية.</p>
+                            <p class="lh-base mb-0">تنظيف المنازل بالبخار.. المميزات والعيوب.</p>
+                            <p class="lh-base mb-0">أهمية التعقيم بعد تنظيف المنازل</p>
+                            <!--<a class="fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>-->
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img2/servesc/21.png" alt="">
+                            <div class="portfolio-overlay">
+
+                            </div>  
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <h4 class="text-primary fw-medium mb-2">أفضل شركة تنظيف مكيفات  </h4>
+                            <p class="lh-base mb-0">علامات تدل على أن المكيف يحتاج إلى صيانة</p>
+                            <p class="lh-base mb-0">تنظيف المكيف السبليت خطوة بخطوة</p>
+                            <p class="lh-base mb-0">الفرق بين غسيل المكيف وصيانته</p>
+
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img2/servesc/20.png" alt="">
+                            <div class="portfolio-overlay">
+
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <h4 class="text-primary fw-medium mb-2">  تنظيف المجالس </h4>
+                            <p class="lh-base mb-0"> أفضل طريقة لتنظيف المجالس دون إتلاف القماش </p>
+                            <p class="lh-base mb-0"> إزالة بقع القهوة والعصائر من الكنب</p>
+                            <p class="lh-base mb-0"> أفضل طريقة لتنظيف المجالس دون إتلاف القماش </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img2/servesc/25.png" alt="">
+                            <div class="portfolio-overlay">
+
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <h4 class="text-primary fw-medium mb-2"> تنظيف وصيانة الأفران </h4>
+                            <p class="lh-base mb-0"> كيفية تنظيف الفرن من الدهون المحترقة .</p>
+                            <p class="lh-base mb-0"> تنظيف الأفران بالبخار. </p>
+                            <p class="lh-base mb-0"> أفضل طريقة للحفاظ على الفرن نظيفً. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img2/servesc/24.png" alt="">
+                            <div class="portfolio-overlay">
+
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <h4 class="text-primary fw-medium mb-2"> أفضل شركة مكافحة حشرات   </h4>
+                            <p class="lh-base mb-0"> كيفية التخلص من النمل في المنزل.  </p>
+                            <p class="lh-base mb-0">  مكافحة البق.. الأسباب والحلول. </p>
+                            <p class="lh-base mb-0">  أفضل طرق مكافحة الصراصير نهائيًا. </p>
+
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img2/servesc/23.png" alt="">
+                            <div class="portfolio-overlay">
+
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <h4 class="text-primary fw-medium mb-2"> عزل الخزانات والأسطح وغيرها </h4>
+                            <p class="lh-base mb-0"> أهمية عزل الخزانات للحفاظ على جودة المياه.  </p>
+                            <p class="lh-base mb-0">  علامات تدل على وجود تسربات المياه. </p>
+                            <p class="lh-base mb-0">  الفرق بين العزل المائي والعزل الحراري. </p>
+                        </div>
+                    </div>
+                </div>
+                <!--00000000000000             00000000000000-->                                                              
+               
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+    <!-- Quote Start -->
+    <hr style="border-bottom: 1px solid #3662ad;" id="Quote" />
+    <br /><br /><br />
+
+    <div class="section-title text-center">
+        <h1 class="display-5 mb-5"> أسئلة شائعة </h1>
+    </div>
+    <div class="accordion accordion-flush" id="accordionFlushExample" style="width: 75%; margin-left: 12%;" dir="rtl">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    إيه أنواع الخدمات اللي بتقدموها ؟
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    إحنا متخصصين في كل ما يخص النظافة والعناية بالمكان!<br /> تنظيف وتعقيم الفلل والقصور <br /> تنظيف مكاتب وشركات بمعدات احترافية
+                    <br />    عزل وتنظيف وتعقيم خزانات المياه               <br />مكافحة الحشرات والآفات
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    بتستخدموا مواد تنظيف آمنة ؟
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">أكيد! إحنا بنستخدم مواد تنظيف ومعقمات آمنة 100% على الأطفال والحيوانات الأليفة، وكمان صديقة للبيئة ♻️، مع ضمان أعلى جودة في النظافة والتعقيم.</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    هل في ضمان على الخدمة ؟
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> طبعًا! بنقدملك ضمان على الخدمة، ولو في أي ملاحظات بنرجع نعيد الخدمة مجانًا خلال 24 ساعة ✨ علشان نضمن رضاك التام.</div>
+            </div>
+        </div>
+        <!--000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000-->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingfour">
+                <button style="text-align:right" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefoue">
+                    كيف بيتم الحجز وهل لازم أكون متواجد ؟
+                </button>
+            </h2>
+            <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    الحجز بيتم بكل سهولة عن طريق الاتصال أو الواتساب 📱، ومش شرط تكون متواجد، إحنا بنشتغل بثقة ومسؤولية، ومعانا طاقم محترف ومدرب 👷‍♂️.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingfive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
+                    هل الأسعار ثابتة ولا بتتغير؟
+                </button>
+            </h2>
+            <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    الأسعار عندنا مرنة وبتعتمد على حجم المكان ونوع الخدمة، لكن دايمًا بنقدم أفضل سعر مقابل أعلى جودة. وكمان فيه عروض خاصة للعملاء الجدد والمناسبات 🎁.
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="border-bottom: 1px solid #3662ad;" />
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s" style="border-bottom: 1px solid #3662ad;">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1 class="display-5 mb-5">شركاء النجاح </h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 190px; height: 190px;">
+                   
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 190px; height: 190px;">
+                     <!--  <div class="testimonial-text text-center p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <h5 class="mb-1">Client Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>-->
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 190px; height: 190px;">
+                   <!-- <div class="testimonial-text text-center p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <h5 class="mb-1">Client Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+    <!-- Footer Start --><br /><br />
+    <div class="section-title text-center"id="contact">
+        <h1 class="display-5 mb-5"> تواصل معنا </h1>
+    </div>
+    
+<!-- ============ FOOTER ============ -->
+ <div id="contact" class="contact-box">
+      <div class="container-fluid">
+         
+          <div class="row">
+              <div class="col-lg-12 col-xs-12">
+                  <div class="contact-block">
+                      <form id="contactForm">
+                          <div class="row">
+                              <div class="col-md-4">
+                                  <div class="form-group" style="padding-top:10px">
+                                      <div class="form-group" style="padding-top:10px">
+                                          <img style="width:100%;height:40vh;box-shadow: 0px 1px 2px #599bf1;" src="img/logo.4.jpeg">
+                                          <div class="help-block with-errors"></div>
+                                      </div>
+                                      <div class="help-block with-errors"></div>
+                                  </div>
+                              </div>
+                              <div class="col-md-4" style="padding-top:10px">
+                                  <div class="form-group">
+                                      <ul style="padding:10px;text-align:center;display: grid;list-style: none;">
+                                          <li style="font-size:30px;"><a target="_blank" href="https://web.facebook.com/profile.php?id=61553920524111" class="bi bi-facebook"></a></li>
+                                          <li style="font-size:30px;"><a target="_blank" href="https://www.instagram.com/marketing.enigma/" class="bi bi-instagram"></a></li>
+                                          <li style="font-size:30px;"><a target="_blank" href="https://wsend.co/201014194537" class="bi bi-whatsapp"></a></li>
+                                          <li style="font-size:30px;"><a target="_blank" href="https://www.tiktok.com/@digitalmarketingbro1" class="bi bi-tiktok"></a></li>
+
+                                        </ul>
+                                  </div>
+                              </div>
+                              <div class="col-md-4" style="padding-top:30px;text-align:center;">
+                                  <h2 style="color: #125c9a;">  نبذة مختصرة  </h2>
+                                  <h6 style="text-align:right;font-family: serif;">
+في IN SERVICE نؤمن بأن النظافة والجودة هما أساس الراحة. نقدم خدمات احترافية تشمل تنظيف الشقق والفلل والشركات، وتنظيف وصيانة المكيفات والأفران، وتنظيف المجالس، ومكافحة الحشرات، وعزل الخزانات والأسطح وغيرها. نعتمد على فريق متخصص، وأجهزة حديثة، ومواد آمنة وعالية الجودة لنضمن لعملائنا أفضل النتائج مع الالتزام بالمواعيد ورضا العملاء                                  </h6>
+                                  
+                              </div>                                                    
+                          </div>
+                      </form>
+                      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);color: #3498db;" dir="rtl">
+                            جميع الحقوق محفوظة لدى شركة IN SERVICE 2026
+                       
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a style="background-color: #0c87a5;border: #0c87a5;" href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <a class="whats-app"href="" target="_blank"><i class="bi bi-telephone"></i></a>
+    <a href="" id="fixedWhatsAppIcon" class="wow zoomIn" target="_blank"><i style="font-size: larger;" class="bi bi-whatsapp"></i></a>
+  
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
