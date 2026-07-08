@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #AB7442;
+    --primary: #a7d8f5;
     --light: #F5F5F5;
     --dark: #353535;
 }
@@ -644,4 +644,29 @@
   }
 
 
+  /*  whatsapp*/
+        h4{
+            text-align: center;
+        }
+        a{
+            color: #0c87a5;
+        }
+      #fixedWhatsAppIcon {
+    display: block;
+    position: fixed;
+    left: 22px;
+    bottom: 180px;
+    width: 56px;
+    height: 53px;
+    background-color: #54b460;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+    z-index: 9999;
+  }
+  #fixedWhatsAppIcon:hover {
+    background-color: #339933;
+  } 
   /*  whatsapp*/
